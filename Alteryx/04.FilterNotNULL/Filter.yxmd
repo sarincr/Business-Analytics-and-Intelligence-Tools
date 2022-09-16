@@ -1,0 +1,205 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.1">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\sarin\Desktop\BankData.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>BankData.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="CREATED" size="254" source="File: C:\Users\sarin\Desktop\BankData.csv" type="V_String" />
+            <Field name="BIC NUMBER" size="254" source="File: C:\Users\sarin\Desktop\BankData.csv" type="V_String" />
+            <Field name="ACCOUNT NAME" size="254" source="File: C:\Users\sarin\Desktop\BankData.csv" type="V_String" />
+            <Field name="TRADE NAME" size="254" source="File: C:\Users\sarin\Desktop\BankData.csv" type="V_String" />
+            <Field name="ADDRESS" size="254" source="File: C:\Users\sarin\Desktop\BankData.csv" type="V_String" />
+            <Field name="CITY" size="254" source="File: C:\Users\sarin\Desktop\BankData.csv" type="V_String" />
+            <Field name="STATE" size="254" source="File: C:\Users\sarin\Desktop\BankData.csv" type="V_String" />
+            <Field name="POSTCODE" size="254" source="File: C:\Users\sarin\Desktop\BankData.csv" type="V_String" />
+            <Field name="PHONE" size="254" source="File: C:\Users\sarin\Desktop\BankData.csv" type="V_String" />
+            <Field name="EMAIL" size="254" source="File: C:\Users\sarin\Desktop\BankData.csv" type="V_String" />
+            <Field name="MARKET" size="254" source="File: C:\Users\sarin\Desktop\BankData.csv" type="V_String" />
+            <Field name="APPLICATION TYPE" size="254" source="File: C:\Users\sarin\Desktop\BankData.csv" type="V_String" />
+            <Field name="DISPOSITION DATE" size="254" source="File: C:\Users\sarin\Desktop\BankData.csv" type="V_String" />
+            <Field name="EFFECTIVE DATE" size="254" source="File: C:\Users\sarin\Desktop\BankData.csv" type="V_String" />
+            <Field name="EXPIRATION DATE" size="254" source="File: C:\Users\sarin\Desktop\BankData.csv" type="V_String" />
+            <Field name="EXPORT DATE" size="254" source="File: C:\Users\sarin\Desktop\BankData.csv" type="V_String" />
+            <Field name="LATITUDE" size="254" source="File: C:\Users\sarin\Desktop\BankData.csv" type="V_String" />
+            <Field name="LONGITUDE" size="254" source="File: C:\Users\sarin\Desktop\BankData.csv" type="V_String" />
+            <Field name="COMMUNITY BOARD" size="254" source="File: C:\Users\sarin\Desktop\BankData.csv" type="V_String" />
+            <Field name="COUNCIL DISTRICT" size="254" source="File: C:\Users\sarin\Desktop\BankData.csv" type="V_String" />
+            <Field name="CENSUS TRACT" size="254" source="File: C:\Users\sarin\Desktop\BankData.csv" type="V_String" />
+            <Field name="BIN" size="254" source="File: C:\Users\sarin\Desktop\BankData.csv" type="V_String" />
+            <Field name="BBL" size="254" source="File: C:\Users\sarin\Desktop\BankData.csv" type="V_String" />
+            <Field name="NTA" size="254" source="File: C:\Users\sarin\Desktop\BankData.csv" type="V_String" />
+            <Field name="BORO" size="254" source="File: C:\Users\sarin\Desktop\BankData.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="714" y="6" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File FileFormat="19" MaxRecords="">C:\Users\sarin\Documents\GitHub\Data-Analytics-with-Alteryx\04.Text\Out2.yxdb</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <NoSpatialIndex>False</NoSpatialIndex>
+            <SaveSource>True</SaveSource>
+            <WriteCompatibleVersion>False</WriteCompatibleVersion>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Out2.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="318" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>IsNotNull</Operator>
+            <Field>LATITUDE</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2022-08-17 05:40:55</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <StartDate>2022-08-17 05:40:55</StartDate>
+              <EndDate>2022-08-17 05:40:55</EndDate>
+              <Operand>0</Operand>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>!IsNull([LATITUDE])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="714" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File FileFormat="19" MaxRecords="">C:\Users\sarin\Documents\GitHub\Data-Analytics-with-Alteryx\04.Text\Out1.yxdb</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <NoSpatialIndex>False</NoSpatialIndex>
+            <SaveSource>True</SaveSource>
+            <WriteCompatibleVersion>False</WriteCompatibleVersion>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Out1.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="True" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="False" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Multi</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="11cd696b-63da-4452-b825-1909c59106fc" />
+      <Telemetry>
+        <PreviousWorkflowId value="5a7b023c-6dc9-4e4c-bc96-3266835a44ae" />
+        <OriginWorkflowId value="5a7b023c-6dc9-4e4c-bc96-3266835a44ae" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

@@ -1,0 +1,245 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.1">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="138" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\sarin\Desktop\HRDataset_v13.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>HRDataset_v13.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Employee_Name" size="254" source="File: C:\Users\sarin\Desktop\HRDataset_v13.csv" type="V_String" />
+            <Field name="EmpID" size="254" source="File: C:\Users\sarin\Desktop\HRDataset_v13.csv" type="V_String" />
+            <Field name="MarriedID" size="254" source="File: C:\Users\sarin\Desktop\HRDataset_v13.csv" type="V_String" />
+            <Field name="MaritalStatusID" size="254" source="File: C:\Users\sarin\Desktop\HRDataset_v13.csv" type="V_String" />
+            <Field name="GenderID" size="254" source="File: C:\Users\sarin\Desktop\HRDataset_v13.csv" type="V_String" />
+            <Field name="EmpStatusID" size="254" source="File: C:\Users\sarin\Desktop\HRDataset_v13.csv" type="V_String" />
+            <Field name="DeptID" size="254" source="File: C:\Users\sarin\Desktop\HRDataset_v13.csv" type="V_String" />
+            <Field name="PerfScoreID" size="254" source="File: C:\Users\sarin\Desktop\HRDataset_v13.csv" type="V_String" />
+            <Field name="FromDiversityJobFairID" size="254" source="File: C:\Users\sarin\Desktop\HRDataset_v13.csv" type="V_String" />
+            <Field name="PayRate" size="254" source="File: C:\Users\sarin\Desktop\HRDataset_v13.csv" type="V_String" />
+            <Field name="Termd" size="254" source="File: C:\Users\sarin\Desktop\HRDataset_v13.csv" type="V_String" />
+            <Field name="PositionID" size="254" source="File: C:\Users\sarin\Desktop\HRDataset_v13.csv" type="V_String" />
+            <Field name="Position" size="254" source="File: C:\Users\sarin\Desktop\HRDataset_v13.csv" type="V_String" />
+            <Field name="State" size="254" source="File: C:\Users\sarin\Desktop\HRDataset_v13.csv" type="V_String" />
+            <Field name="Zip" size="254" source="File: C:\Users\sarin\Desktop\HRDataset_v13.csv" type="V_String" />
+            <Field name="DOB" size="254" source="File: C:\Users\sarin\Desktop\HRDataset_v13.csv" type="V_String" />
+            <Field name="Sex" size="254" source="File: C:\Users\sarin\Desktop\HRDataset_v13.csv" type="V_String" />
+            <Field name="MaritalDesc" size="254" source="File: C:\Users\sarin\Desktop\HRDataset_v13.csv" type="V_String" />
+            <Field name="CitizenDesc" size="254" source="File: C:\Users\sarin\Desktop\HRDataset_v13.csv" type="V_String" />
+            <Field name="HispanicLatino" size="254" source="File: C:\Users\sarin\Desktop\HRDataset_v13.csv" type="V_String" />
+            <Field name="RaceDesc" size="254" source="File: C:\Users\sarin\Desktop\HRDataset_v13.csv" type="V_String" />
+            <Field name="DateofHire" size="254" source="File: C:\Users\sarin\Desktop\HRDataset_v13.csv" type="V_String" />
+            <Field name="DateofTermination" size="254" source="File: C:\Users\sarin\Desktop\HRDataset_v13.csv" type="V_String" />
+            <Field name="TermReason" size="254" source="File: C:\Users\sarin\Desktop\HRDataset_v13.csv" type="V_String" />
+            <Field name="EmploymentStatus" size="254" source="File: C:\Users\sarin\Desktop\HRDataset_v13.csv" type="V_String" />
+            <Field name="Department" size="254" source="File: C:\Users\sarin\Desktop\HRDataset_v13.csv" type="V_String" />
+            <Field name="ManagerName" size="254" source="File: C:\Users\sarin\Desktop\HRDataset_v13.csv" type="V_String" />
+            <Field name="ManagerID" size="254" source="File: C:\Users\sarin\Desktop\HRDataset_v13.csv" type="V_String" />
+            <Field name="RecruitmentSource" size="254" source="File: C:\Users\sarin\Desktop\HRDataset_v13.csv" type="V_String" />
+            <Field name="PerformanceScore" size="254" source="File: C:\Users\sarin\Desktop\HRDataset_v13.csv" type="V_String" />
+            <Field name="EngagementSurvey" size="254" source="File: C:\Users\sarin\Desktop\HRDataset_v13.csv" type="V_String" />
+            <Field name="EmpSatisfaction" size="254" source="File: C:\Users\sarin\Desktop\HRDataset_v13.csv" type="V_String" />
+            <Field name="SpecialProjectsCount" size="254" source="File: C:\Users\sarin\Desktop\HRDataset_v13.csv" type="V_String" />
+            <Field name="LastPerformanceReview_Date" size="254" source="File: C:\Users\sarin\Desktop\HRDataset_v13.csv" type="V_String" />
+            <Field name="DaysLateLast30" size="254" source="File: C:\Users\sarin\Desktop\HRDataset_v13.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="378" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>Subset</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="666" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="25">C:\Users\sarin\Documents\GitHub\Data-Analytics-with-Alteryx\09.Union\Out.xlsx|||Sheet1</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <PreserveFormat>False</PreserveFormat>
+            <SkipFieldNames>False</SkipFieldNames>
+            <OutputOption>Create</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Out.xlsx
+Query=Sheet1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="126" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\sarin\Desktop\HRDataset_v9.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>HRDataset_v9.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Employee Name" size="254" source="File: C:\Users\sarin\Desktop\HRDataset_v9.csv" type="V_String" />
+            <Field name="Employee Number" size="254" source="File: C:\Users\sarin\Desktop\HRDataset_v9.csv" type="V_String" />
+            <Field name="MarriedID" size="254" source="File: C:\Users\sarin\Desktop\HRDataset_v9.csv" type="V_String" />
+            <Field name="MaritalStatusID" size="254" source="File: C:\Users\sarin\Desktop\HRDataset_v9.csv" type="V_String" />
+            <Field name="GenderID" size="254" source="File: C:\Users\sarin\Desktop\HRDataset_v9.csv" type="V_String" />
+            <Field name="EmpStatus_ID" size="254" source="File: C:\Users\sarin\Desktop\HRDataset_v9.csv" type="V_String" />
+            <Field name="DeptID" size="254" source="File: C:\Users\sarin\Desktop\HRDataset_v9.csv" type="V_String" />
+            <Field name="Perf_ScoreID" size="254" source="File: C:\Users\sarin\Desktop\HRDataset_v9.csv" type="V_String" />
+            <Field name="Age" size="254" source="File: C:\Users\sarin\Desktop\HRDataset_v9.csv" type="V_String" />
+            <Field name="Pay Rate" size="254" source="File: C:\Users\sarin\Desktop\HRDataset_v9.csv" type="V_String" />
+            <Field name="State" size="254" source="File: C:\Users\sarin\Desktop\HRDataset_v9.csv" type="V_String" />
+            <Field name="Zip" size="254" source="File: C:\Users\sarin\Desktop\HRDataset_v9.csv" type="V_String" />
+            <Field name="DOB" size="254" source="File: C:\Users\sarin\Desktop\HRDataset_v9.csv" type="V_String" />
+            <Field name="Sex" size="254" source="File: C:\Users\sarin\Desktop\HRDataset_v9.csv" type="V_String" />
+            <Field name="MaritalDesc" size="254" source="File: C:\Users\sarin\Desktop\HRDataset_v9.csv" type="V_String" />
+            <Field name="CitizenDesc" size="254" source="File: C:\Users\sarin\Desktop\HRDataset_v9.csv" type="V_String" />
+            <Field name="Hispanic/Latino" size="254" source="File: C:\Users\sarin\Desktop\HRDataset_v9.csv" type="V_String" />
+            <Field name="RaceDesc" size="254" source="File: C:\Users\sarin\Desktop\HRDataset_v9.csv" type="V_String" />
+            <Field name="Date of Hire" size="254" source="File: C:\Users\sarin\Desktop\HRDataset_v9.csv" type="V_String" />
+            <Field name="Days Employed" size="254" source="File: C:\Users\sarin\Desktop\HRDataset_v9.csv" type="V_String" />
+            <Field name="Date of Termination" size="254" source="File: C:\Users\sarin\Desktop\HRDataset_v9.csv" type="V_String" />
+            <Field name="Reason For Term" size="254" source="File: C:\Users\sarin\Desktop\HRDataset_v9.csv" type="V_String" />
+            <Field name="Employment Status" size="254" source="File: C:\Users\sarin\Desktop\HRDataset_v9.csv" type="V_String" />
+            <Field name="Department" size="254" source="File: C:\Users\sarin\Desktop\HRDataset_v9.csv" type="V_String" />
+            <Field name="Position" size="254" source="File: C:\Users\sarin\Desktop\HRDataset_v9.csv" type="V_String" />
+            <Field name="Manager Name" size="254" source="File: C:\Users\sarin\Desktop\HRDataset_v9.csv" type="V_String" />
+            <Field name="Employee Source" size="254" source="File: C:\Users\sarin\Desktop\HRDataset_v9.csv" type="V_String" />
+            <Field name="Performance Score" size="254" source="File: C:\Users\sarin\Desktop\HRDataset_v9.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection name="#1">
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Union</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="d1a2f331-4de8-4e0d-9821-d0824fa6f3dd" />
+      <Telemetry>
+        <PreviousWorkflowId value="b0dcb1ee-bcca-4472-9c38-00ed7dcc75bc" />
+        <OriginWorkflowId value="b0dcb1ee-bcca-4472-9c38-00ed7dcc75bc" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
